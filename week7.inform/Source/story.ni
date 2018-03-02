@@ -33,14 +33,12 @@ Every turn (this is the broken leg rule):
 	if the slip count of the player > 5:
 		end the story saying "Oh no!  You have broken your leg.". 
 
-[
 Check going when the location is in Campus and the player does not wear some snowshoes (this is the it's icy on Campus rule):
 	let x be a random number from 1 to 10;
 	if x < 10:
 		now the slip count of the player is the slip count of the player + 1;
 		say "as you head off, you slip on the ground." instead;
 	continue the action.
-]
 
 Shoes are a kind of thing.  Shoes are usually wearable.
 
@@ -52,10 +50,13 @@ The player carries a keycard.
 
 The card reader is in Laurie Grove.
 
-Swiping in is an action applying to two touchable things.  Understand "swipe [thing] in [thing]" as swiping in.
+Swiping it in is an action applying to two touchable things.  Understand "swipe [thing] in [thing]" as swiping it in.
 
-Carry out swiping in the keycard when the second noun is the card reader (this is the carry out keycard swiping rule):
+Carry out swiping the keycard in the card reader (this is the carry out keycard swiping rule):
 	now the BPB door is unlocked.
 
-Report swiping in the keycard when the second noun is the card reader (this is the report keycard swiping rule):
+Report swiping the keycard in the card reader (this is the report keycard swiping rule):
 	say "The BPB doors unlock.  The automatic opening mechanism looks non-functional today.  Maybe it's too cold?".
+
+Instead of unlocking the BPB door with the keycard (this is the swipe instead of unlock rule):
+	try swiping the keycard in the card reader.
