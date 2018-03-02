@@ -1,4 +1,4 @@
-"week7" by "Christophe Rhodes"
+"Icy journey" by "Christophe Rhodes"
 
 Release along with an interpreter.
 
