@@ -33,7 +33,7 @@ Every turn (this is the broken leg rule):
 	if the slip count of the player > 5:
 		end the story saying "Oh no!  You have broken your leg.". 
 
-Check going when the location is in Campus (this is the it's icy on Campus rule):
+Check going when the location is in Campus and the player does not wear some snowshoes (this is the it's icy on Campus rule):
 	let x be a random number from 1 to 10;
 	if x < 10:
 		now the slip count of the player is the slip count of the player + 1;
