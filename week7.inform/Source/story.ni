@@ -19,7 +19,7 @@ Book 0 - Ideas
 
 Book 1 - Stuff
 
-The GDS is a room.  Laurie Grove is east of the GDS.  New Cross Road is north of Laurie Grove.  New Cross Station is east of New Cross Road.  New Cross Gate station is west of New Cross Road.
+The GDS is a room.  Laurie Grove is a room.  New Cross Road is north of Laurie Grove.  New Cross Station is east of New Cross Road.  New Cross Gate station is west of New Cross Road.
 
 Campus is a Region.  Laurie Grove and the GDS are in Campus.
 
@@ -43,3 +43,5 @@ Check going when the location is in Campus and the player does not wear some sno
 Shoes are a kind of thing.  Shoes are usually wearable.
 
 Some snowshoes are shoes in New Cross Station.  They are plural-named.
+
+The BPB door is a locked door.  The BPB door is east of the GDS and west of Laurie Grove.
